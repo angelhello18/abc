@@ -18,3 +18,7 @@ while True:
 client_socket.close()
 
 
+'''
+conclusion:
+This Python client-server program demonstrates basic TCP communication using sockets. The server listens for connections and responds to messages, while the client sends commands and receives responses. Communication continues until "exit" is typed, showing a simple yet effective model for interactive two-way messaging
+'''
