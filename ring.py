@@ -73,3 +73,10 @@ if __name__ == "__main__":
 
     ring.activate_process(5)    # Simulate that process 5 comes back
     ring.start_election(3)      # Start a new election from process 3
+
+
+
+'''
+Conclusion:
+This program simulates the Ring Election Algorithm, where processes in a ring topology coordinate to elect a leader (coordinator) after a failure. The election message circulates through active processes, and the one with the highest ID becomes the new coordinator. It demonstrates how fault-tolerant leader election can be achieved in a distributed system, ensuring system continuity even when processes fail or recover.
+'''
