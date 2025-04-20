@@ -13,3 +13,8 @@ if __name__ == '__main__':
     parent_conn.send("Hello from parent!")
     print("Parent received:", parent_conn.recv())
     p.join()
+
+'''
+Conclusion:
+This program demonstrates inter-process communication (IPC) using Python’s multiprocessing module and a Pipe. It shows how a parent and child process can send and receive messages through a communication channel. This simple example helps understand how processes can safely exchange data in parallel execution environments, making it a key concept in concurrent programming.
+'''
