@@ -83,3 +83,9 @@ if __name__ == "__main__":
 
     # Call the function to compute Lamport Logical Clocks
     lamportLogicalClock(e1, e2, m)
+
+
+'''
+Conclusion:
+This program implements Lamport Logical Clocks to assign timestamps to events in two processes. It ensures that the causal order of events is preserved based on message passing. The timestamps help track the sequence of events in a distributed system without needing synchronized physical clocks.
+'''
